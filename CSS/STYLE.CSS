@@ -89,10 +89,15 @@
 @media (min-width:768px) {
     .main-container {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .container {
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 1024px;
     }
     .container .img {
         background: url(../images/image-header-mobile.jpg) no-repeat center/cover;
